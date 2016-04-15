@@ -25,5 +25,5 @@ $(call inherit-product, vendor/turbo/config/common_full_phone.mk)
 PRODUCT_NAME := turbo_m8
 
 # ViPER4Android
- PRODUCT_COPY_FILES += \
-     vendor/turbo/prebuilt/common/app/ViPER4Android.apk:system/app/ViPER4Android/ViPER4Android.apk
+PRODUCT_PACKAGES += \
+    ViPER4Android
